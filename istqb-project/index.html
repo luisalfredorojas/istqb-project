@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Practica gratis para el examen de certificación ISTQB. Simulador de examen con preguntas reales y temporizador.">
+  <meta name="keywords" content="ISTQB, examen ISTQB, simulador ISTQB, QA, testing, certificación">
+  <meta name="author" content="Tu Nombre">
+  <title>Simulador ISTQB | Practica para tu certificación QA</title>
+  <link rel="stylesheet" href="css/style.css">
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f4f4f4;
+      color: #333;
+    }
+
+    header, footer {
+      background-color: #004080;
+      color: white;
+      padding: 1rem;
+      text-align: center;
+    }
+
+    main {
+      max-width: 800px;
+      margin: 2rem auto;
+      padding: 1rem;
+      background-color: white;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+
+    #exam-list ul {
+      list-style-type: none;
+      padding: 0;
+    }
+
+    #exam-list li {
+      margin: 1rem 0;
+    }
+
+    #exam-list a {
+      display: block;
+      padding: 1rem;
+      background-color: #007bff;
+      color: white;
+      text-decoration: none;
+      border-radius: 5px;
+      transition: background-color 0.3s;
+    }
+
+    #exam-list a:hover {
+      background-color: #0056b3;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Simulador de Examen ISTQB</h1>
+    <p>Selecciona el tipo de examen que deseas practicar</p>
+  </header>
+
+  <main>
+    <section id="exam-list">
+      <ul>
+        <li><a href="exam.html?type=foundation">Foundation Level</a></li>
+        <li><a href="exam.html?type=agile">Agile Tester</a></li>
+        <li><a href="exam.html?type=advanced">Advanced Level</a></li>
+        <!-- Agrega más niveles aquí -->
+      </ul>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Simulador ISTQB - Todos los derechos reservados</p>
+  </footer>
+</body>
+</html>
