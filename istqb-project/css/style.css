@@ -1,0 +1,92 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+  }
+  
+  header, footer {
+    background-color: #004080;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+  }
+  
+  main {
+    padding: 1rem;
+  }
+  
+  .exam-layout {
+    display: flex;
+    gap: 1rem;
+    max-width: 1000px;
+    margin: 2rem auto;
+    background-color: white;
+    border-radius: 10px;
+    padding: 1rem;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  }
+  
+  #progress-panel {
+    min-width: 120px;
+  }
+  
+  #progress-panel h3 {
+    margin-bottom: 0.5rem;
+  }
+  
+  #progress-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px;
+  }
+  
+  #progress-list button {
+    width: 28px;
+    height: 28px;
+    border-radius: 50%;
+    border: none;
+    font-weight: bold;
+    cursor: pointer;
+    font-size: 0.9rem;
+  }
+  
+  .answered {
+    background-color: #28a745;
+    color: white;
+  }
+  
+  .unanswered {
+    background-color: #ccc;
+    color: black;
+  }
+  
+  .exam-content {
+    flex-grow: 1;
+  }
+  
+  .question-block {
+    margin-bottom: 1.5rem;
+  }
+  
+  .navigation {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1rem;
+  }
+  
+  .navigation button {
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    border: none;
+    background-color: #007bff;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .navigation button:hover {
+    background-color: #0056b3;
+  }
+  

@@ -1,0 +1,25 @@
+[
+    {
+      "id": 1,
+      "question": "¿Cuál es el propósito principal de las pruebas de software?",
+      "options": [
+        "Prevenir errores",
+        "Demostrar que el software funciona",
+        "Localizar defectos",
+        "Cumplir con requerimientos del cliente"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 2,
+      "question": "¿Qué técnica pertenece a la categoría de prueba caja negra?",
+      "options": [
+        "Cobertura de sentencias",
+        "Análisis de valores límite",
+        "Cobertura de condiciones",
+        "Análisis de flujo de control"
+      ],
+      "correctIndex": 1
+    }
+  ]
+  
